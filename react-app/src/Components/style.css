@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono|Montserrat:700");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  color: inherit;
+}
+
+body {
+  background-image: linear-gradient(120deg, #043030 0%, #042209 100%);
+  height: 100vh;
+}
+
+h1 {
+  font-size: 25vw;
+  text-align: center;
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+  color: #ffffff26;
+  text-shadow: 0 0 50px rgba(0, 0, 0, 0.07);
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Montserrat", monospace;
+}
+
+div.main {
+  background: rgba(0, 0, 0, 0.664);
+  border-radius: 10px;
+  width: 70vw;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  padding: 30px 30px 10px;
+  box-shadow: 0 0 150px -20px rgba(0, 0, 0, 0.5);
+  z-index: 3;
+}
+
+P {
+  font-family: "Share Tech Mono", monospace;
+  color: red;
+  margin: 0 0 20px;
+  font-size: 17px;
+  line-height: 1.2;
+}
+
+span {
+  color: #00ff0d;
+}
+
+i {
+  color: aqua;
+}
+
+div.main a {
+  text-decoration: none;
+  color: rgb(255, 102, 0);
+}
+strong {
+  color: rgb(128, 128, 128);
+}
+
+svg.radio-wrapper{
+  display: inline !important;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+}
